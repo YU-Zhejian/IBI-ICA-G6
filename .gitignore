@@ -1,0 +1,34 @@
+# Here are my .gitignore file.
+
+# Files created by VIM
+*.swap
+*.swp
+
+# Files created by GNU Emacs
+\#*\#
+*~
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+
+# Files created by the opreating system
+.Trash-*
+.nfs*
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Files created by IDE
+.idea/
