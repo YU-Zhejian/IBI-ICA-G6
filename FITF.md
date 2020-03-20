@@ -7,3 +7,7 @@
 `FITF.md` This file.
 
 `Readme.md` This indicates what is in this folder.
+
+`Agenda.md` Our pending agenda.
+
+`docs/` Folder containing documents which may be useful.
