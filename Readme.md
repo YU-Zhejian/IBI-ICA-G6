@@ -43,7 +43,7 @@ I do not recommend you to fork our repository--If you're inside this group, plea
 
 `Readme.md` This indicates what is in this folder.
 
-`Agenda.md` Our pending agenda.
+`Formative.md` Our formative ICA's answer.
 
 `docs/` Folder containing documents which may be useful.
 
