@@ -2,13 +2,13 @@
 
 ## The Functions
 
-| No.  | Function | **Person in charge** |
-| ---- | -------- | -------------------- |
-| 1    |          |                      |
-| 2    |          |                      |
-| 3    |          |                      |
-| 4    |          |                      |
-| 5    |          |                      |
+| No.  | Function                            | **Person in charge** |
+| ---- | ----------------------------------- | -------------------- |
+| 1    | GC content calculator               | WU Yuyun             |
+| 2    | Complementary DNA strand calculator | YUAN Ruihong         |
+| 3    | DNA to mRNA convertor               | CEN Yihui            |
+| 4    | mRNA to protein                     | QIU Xingru           |
+| 5    |                                     |                      |
 
 
 
