@@ -16,10 +16,10 @@
 
 The following is our plan:
 
-Write pseudocodes and codes assigned to us. After the codes are generated, they will be run by all the 
-group members to serve as a double check. 
-When preparing the poster, make use of the pseudocodes and add necessary details to make the explanations
-more readable.
+Write pseudocodes and real codes assigned to each member. After the codes are generated, they will be executed by all members as a double check. 
+
+When preparing the poster, make use of the pseudocodes and add necessary details to make the explanations more readable.
+
 A meeting will be held to decide the design of the poster.
 
 
