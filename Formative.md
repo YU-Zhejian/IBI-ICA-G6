@@ -42,6 +42,10 @@ The skills we need are as follows:
 * How to interactive with Git, locally and remotely.
 * How to make posters under Adobe Photoshop.
 
+The functions we need are as follows:
+* Regular expressions
+* if loops
+* for loops
 ## The Git Workflow
 
 Our Git workflow is modelled after the centralized workflow (Chacon, S. and Straub, B., 2018). Just pull-edit-stage-commit-push to the master branch.
