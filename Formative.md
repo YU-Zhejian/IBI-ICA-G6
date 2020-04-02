@@ -1,14 +1,16 @@
 # Formative ICA
 
+Roll Number: XXXX
+
 ## The Functions
 
-| No.  | Function                            | **Person in charge** |
-| ---- | ----------------------------------- | -------------------- |
-| 1    | GC content calculator               | WU Yuyun             |
-| 2    | Complementary DNA strand calculator | YUAN Ruihong         |
-| 3    | DNA to mRNA convertor               | CEN Yihui            |
-| 4    | mRNA to protein                     | QIU Xingru           |
-| 5    | DNA to polypeptides calculator      | YU Zhejian           |
+| No.  | Function                            |
+| ---- | ----------------------------------- |
+| 1    | GC content calculator               |
+| 2    | Complementary DNA strand calculator |
+| 3    | DNA to mRNA convertor               |
+| 4    | mRNA to protein                     |
+| 5    | DNA to polypeptides calculator      |
 
 The fifth function will compute the number of polypeptides produced by a user-specified DNA.
 
