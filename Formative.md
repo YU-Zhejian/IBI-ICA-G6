@@ -10,7 +10,7 @@
 | 4    | mRNA to protein                     | QIU Xingru           |
 | 5    | DNA to polypeptides calculator      | YU Zhejian           |
 
-The fifth function will compute the number of polypeptides produced by a user-specific DNA.
+The fifth function will compute the number of polypeptides produced by a user-specified DNA.
 
 ## The Agenda
 
