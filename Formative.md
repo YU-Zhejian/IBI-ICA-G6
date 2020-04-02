@@ -57,10 +57,6 @@ Branching is encouraged offline but not online unless necessary (e. g. Huge disa
 1. We have made a detailed specifications on Python and other scripts on indentation, line endings and encodings. The detailed specifications are listed in the appendix.
 2. We have made sure that everyone's familiar with the workflow by practice.
 
-## Questions
-
-
-
 ## Appendix
 
 ### Python Specifications
