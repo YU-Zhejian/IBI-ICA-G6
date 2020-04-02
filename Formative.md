@@ -8,9 +8,9 @@
 | 2    | Complementary DNA strand calculator | YUAN Ruihong         |
 | 3    | DNA to mRNA convertor               | CEN Yihui            |
 | 4    | mRNA to protein                     | QIU Xingru           |
-| 5    |                                     |                      |
+| 5    | DNA to polypeptides calculator      | YU Zhejian           |
 
-
+The fifth function will compute the number of polypeptides produced by a user-specific DNA.
 
 ## The Agenda
 
@@ -21,8 +21,6 @@ Write pseudocodes and real codes assigned to each member. After the codes are ge
 When preparing the poster, make use of the pseudocodes and add necessary details to make the explanations more readable.
 
 A meeting will be held to decide the design of the poster.
-
-
 
 DDL 2020-05-07
 
