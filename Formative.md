@@ -1,6 +1,4 @@
-# Formative ICA
-
-Roll Number: XXXX
+# Formative ICA for Group 6
 
 ## The Functions
 
