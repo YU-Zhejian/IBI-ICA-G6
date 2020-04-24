@@ -32,3 +32,6 @@ $RECYCLE.BIN/
 
 # Files created by IDE
 .idea/
+
+# PDF
+*.pdf
