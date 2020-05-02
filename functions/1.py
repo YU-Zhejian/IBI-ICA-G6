@@ -8,8 +8,4 @@ Created on Sun Apr 26 08:46:43 2020
 
 import re
 DNA = 'TAGCATCGGCATTACTGAC'
-x = re.findall(r'G',DNA)
-y = re.findall(r'C',DNA)
-z =((len(x)+len(y))/len(DNA)*100)
-w = ('%.2f' % z)
-print (str(w)+'%')
+print(str(round(len(re.findall(r'G|C',DNA))/len(DNA)*100,2))+'%')
