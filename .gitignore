@@ -32,6 +32,7 @@ $RECYCLE.BIN/
 
 # Files created by IDE
 .idea/
+functions/__pycache__
 
 # PDF
 *.pdf
