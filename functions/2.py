@@ -3,7 +3,7 @@
 
 def get_compl_dna(DNA:str):
     '''
-    Compute the complementary DNA strand form any user-specified DNA sequence.
+    Compute the complementary DNA strand from any user-specified DNA sequence.
     :param DNA:
     :return:
     '''
