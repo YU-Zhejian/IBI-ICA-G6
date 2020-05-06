@@ -7,10 +7,7 @@ def get_compl_dna(DNA:str):
     :param DNA:
     :return:
     '''
-    compl_dict = str.maketrans('ATCG', 'TAGC')
-    res = list(DNA.translate(compl_dict))
-    res.reverse()
-    return (''.join(res))
+    return DNA[::-1].translate(str.maketrans('ATCG', 'TAGC'))
 # demo code:
 print(get_compl_dna('ATGTTGAATAGTTCAAGAAAATATGCTTGTCGTTCCCTATTCAGACAAGCGATGCGACTACGATCGAGGGCCAT'))
 #MQGGESLLSRYHRKVDLLWFLDQDYPRPSN
