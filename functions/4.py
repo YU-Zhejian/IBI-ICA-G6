@@ -24,11 +24,10 @@ proteinsequence= ''
 start = sequence.find('UAC')
 sequencestart = sequence[int(start):]
 # Three codons correspond to one amino acid
-    for n in range(0, len(sequence)):
-        if sequence[n:n + 3] in table.keys():
-#add the translated amino acid to the polypeptide sequence
-            proteinsequence += table[sequence[n:n + 3]]
-        else:
-                break
-print(protein sequence)
-
+for n in range(0, len(sequence)):
+    if sequence[n:n + 3] in table.keys():
+        #add the translated amino acid to the polypeptide sequence
+        proteinsequence += table[sequence[n:n + 3]]
+    else:
+        break
+print(proteinsequence)
