@@ -11,6 +11,6 @@ def get_compl_dna(DNA:str):
     res = list(DNA.translate(compl_dict))
     res.reverse()
     return (''.join(res))
-
-print(get_compl_dna('ATGCGACTACGATCGAGGGCCAT'))
-#ATGGCCCTCGATCGTAGTCGCAT
+# demo code:
+print(get_compl_dna('ATGTTGAATAGTTCAAGAAAATATGCTTGTCGTTCCCTATTCAGACAAGCGATGCGACTACGATCGAGGGCCAT'))
+#MQGGESLLSRYHRKVDLLWFLDQDYPRPSN

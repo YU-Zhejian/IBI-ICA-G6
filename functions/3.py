@@ -13,6 +13,6 @@ def dna2rna(DNA:str):
     :return:
     '''
     return(DNA.translate(str.maketrans("AGCT","UCGA")))
-
+# demo code:
 print(dna2rna('ATGCGACTACGATCGAGGGCCAT'))
 #UACGCUGAUGCUAGCUCCCGGUA

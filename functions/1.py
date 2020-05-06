@@ -14,6 +14,6 @@ def gc_calc (DNA:str):
     '''
     import re
     return (str(round(len(re.findall(r'G|C',DNA))/len(DNA)*100,2))+'%')
-
+# demo code:
 print(gc_calc('TAGCATCGGCATTACTGAC'))
 #47.37%

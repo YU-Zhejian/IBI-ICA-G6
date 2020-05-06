@@ -1,33 +1,43 @@
-m=input("Write mRNA sequence here:")
-sequence=list(m)
-# Corresponding relations between mRNA sequence and amino acid
-table = {
-    'UAU':'I', 'UAG':'I', 'UAA':'I', 'UAC':'M',
-    'UGU':'T', 'UGG':'T', 'UGC':'T', 'UGA':'T',
-    'UUG':'N', 'UUA':'N', 'UUU':'K', 'UUC':'K',
-    'UCG':'S', 'UCA':'S', 'UCU':'R', 'UCC':'R',
-    'GAU':'L', 'GAG':'L', 'GAC':'L', 'GAA':'L',
-    'GGU':'P', 'GGG':'P', 'GGC':'P', 'GGA':'P',
-    'GUG':'H', 'GUA':'H', 'GUU':'Q', 'GUC':'Q',
-    'GCU':'R', 'GCG':'R', 'GCC':'R', 'GCA':'R',
-    'CAU':'V', 'CAG':'V', 'CAC':'V', 'CAA':'V',
-    'CGU':'A', 'CGG':'A', 'CGC':'A', 'CGA':'A',
-    'CUG':'D', 'CUA':'D', 'CUU':'E', 'CUC':'E',
-    'CCU':'G', 'CCG':'G', 'CCC':'G', 'CCA':'G',
-    'AGU':'S', 'AGG':'S', 'AGC':'S', 'AGA':'S',
-    'AAG':'F', 'AAA':'F', 'AAU':'L', 'AAC':'L',
-    'AUG':'Y', 'AUA':'Y', 'ACG':'C', 'ACA':'C',
-    'ACC':'W',
-}
-#The sequence of the amino acid
-proteinsequence= ''
-start = sequence.find('UAC')
-sequencestart = sequence[int(start):]
-# Three codons correspond to one amino acid
-for n in range(0, len(sequence)):
-    if sequence[n:n + 3] in table.keys():
-        #add the translated amino acid to the polypeptide sequence
-        proteinsequence += table[sequence[n:n + 3]]
-    else:
-        break
-print(proteinsequence)
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+def mrna2pro(m:str):
+    '''
+    Protein Translator
+    :param m:
+    :return:
+    '''
+    # Corresponding relations between mRNA sequence and amino acid
+    table = {
+        'UAU':'Y', 'UAC':'Y',
+        'UGU':'C', 'UGG':'W', 'UGC':'C',
+        'UUG':'L', 'UUA':'L', 'UUU':'F', 'UUC':'F',
+        'UCG':'S', 'UCA':'S', 'UCU':'S', 'UCC':'S',
+        'GAU':'D', 'GAG':'E', 'GAC':'D', 'GAA':'E',
+        'GGU':'G', 'GGG':'G', 'GGC':'G', 'GGA':'G',
+        'GUG':'V', 'GUA':'V', 'GUU':'V', 'GUC':'V',
+        'GCU':'A', 'GCG':'A', 'GCC':'A', 'GCA':'A',
+        'CAU':'H', 'CAG':'Q', 'CAC':'H', 'CAA':'Q',
+        'CGU':'R', 'CGG':'R', 'CGC':'R', 'CGA':'R',
+        'CUG':'L', 'CUA':'L', 'CUU':'L', 'CUC':'L',
+        'CCU':'P', 'CCG':'P', 'CCC':'P', 'CCA':'P',
+        'AGU':'S', 'AGG':'R', 'AGC':'S', 'AGA':'R',
+        'AAG':'K', 'AAA':'K', 'AAU':'N', 'AAC':'N',
+        'AUC':'I', 'AUA':'I', 'AUG':'M', 'AUU':'I',
+        'ACC':'W', 'ACU':'W', 'ACG':'W', 'ACA':'W'
+    }
+    #The sequence of the amino acid
+    proteinsequence= ''
+    start = m.find('AUG')
+    # Three codons correspond to one amino acid
+    for n in range(start,len(m),3):
+        if m[n:n + 3] in table.keys():
+            print(m[n:n + 3]+"->"+table[m[n:n + 3]])
+            #add the translated amino acid to the polypeptide sequence
+            proteinsequence += table[m[n:n + 3]]
+        else:
+            break
+    return(proteinsequence)
+# demo code:
+print(mrna2pro('AUGCAGGGUGGUGAAUCGUUGUUAUCUCGUUACCACCGGAAGGUAGACCUUUUAACUUUUUUGGACCAAGAUUAUCCGAGACCAAGUAACUAA'))
+#MQGGESLLSRYHRKVDLLWFLDQDYPRPSN
