@@ -9,22 +9,22 @@ def mrna2pro(m:str):
     '''
     # Corresponding relations between mRNA sequence and amino acid
     table = {
-        'UAU':'Y', 'UAC':'Y',
-        'UGU':'C', 'UGG':'W', 'UGC':'C',
-        'UUG':'L', 'UUA':'L', 'UUU':'F', 'UUC':'F',
-        'UCG':'S', 'UCA':'S', 'UCU':'S', 'UCC':'S',
-        'GAU':'D', 'GAG':'E', 'GAC':'D', 'GAA':'E',
-        'GGU':'G', 'GGG':'G', 'GGC':'G', 'GGA':'G',
-        'GUG':'V', 'GUA':'V', 'GUU':'V', 'GUC':'V',
-        'GCU':'A', 'GCG':'A', 'GCC':'A', 'GCA':'A',
-        'CAU':'H', 'CAG':'Q', 'CAC':'H', 'CAA':'Q',
-        'CGU':'R', 'CGG':'R', 'CGC':'R', 'CGA':'R',
-        'CUG':'L', 'CUA':'L', 'CUU':'L', 'CUC':'L',
-        'CCU':'P', 'CCG':'P', 'CCC':'P', 'CCA':'P',
-        'AGU':'S', 'AGG':'R', 'AGC':'S', 'AGA':'R',
-        'AAG':'K', 'AAA':'K', 'AAU':'N', 'AAC':'N',
-        'AUC':'I', 'AUA':'I', 'AUG':'M', 'AUU':'I',
-        'ACC':'W', 'ACU':'W', 'ACG':'W', 'ACA':'W'
+    'AUA':'I', 'AUC':'I', 'AUU':'I', 'AUG':'M',
+    'ACU':'T', 'ACC':'T', 'ACA':'T', 'ACG':'T',
+    'AAC':'N', 'AAU':'N', 'AAA':'K', 'AAG':'K',
+    'AGC':'S', 'AGU':'S', 'AGG':'R', 'AGA':'R',
+    'CUU':'L', 'CUC':'L', 'CUA':'L', 'CUG':'L',
+    'CCC':'P', 'CCA':'P', 'CCG':'P', 'CCU':'P',
+    'CAC':'H', 'CAU':'H', 'CAA':'Q', 'CAG':'Q',
+    'CGC':'R', 'CGU':'R', 'CGA':'R', 'CGG':'R',
+    'GUU':'V', 'GUC':'V', 'GUA':'V', 'GUG':'V',
+    'GCA':'A', 'GCU':'A', 'GCC':'A', 'GCG':'A',
+    'GAU':'D', 'GAC':'D', 'GAA':'E', 'GAG':'E',
+    'GGU':'G', 'GGA':'G', 'GGC':'G', 'GGG':'G',
+    'UCA':'S', 'UCG':'S', 'UCC':'S', 'UCU':'S',
+    'UUC':'F', 'UUU':'F', 'UUG':'L', 'UUA':'L',
+    'UAU':'Y', 'UAC':'Y', 'UGU':'C', 'UGC':'C',
+    'UGG':'W', 
     }
     #The sequence of the amino acid
     proteinsequence= ''
