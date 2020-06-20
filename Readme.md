@@ -1,3 +1,11 @@
+# FBI Warnings:
+
+For those who wants to clone my repository and get a higher grade:
+
+1. You are a liar, and;
+
+2. Your action will be reported to the Examination Board.
+
 # Readme @ IBI ICA Group6
 
 Good morning! Welcome to Group 6! Before starting our project, it is important to state our rules:
